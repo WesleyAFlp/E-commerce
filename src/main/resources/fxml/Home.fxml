@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="36.0" layoutY="83.0" text="Completude" textFill="#2bc8d3">
+         <font>
+            <Font name="Bell MT" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="136.0" text="E-commerce Completo" textFill="#2bc8d3">
+         <font>
+            <Font name="Bell MT" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="170.0" fitWidth="178.0" layoutX="36.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/caixa%20logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="496.0" layoutY="25.0" text="Gerenciamento do Sistema" textFill="#167c80">
+         <font>
+            <Font name="Bell MT" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="81.0" fitWidth="170.0" layoutX="555.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/Icone%20de%20pessoa.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="149.0" fitWidth="135.0" layoutX="555.0" layoutY="457.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icone%20venda.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="141.0" fitWidth="145.0" layoutX="557.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icone%20produto.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="117.0" layoutX="569.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagens/icone%20de%20relatorio.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
