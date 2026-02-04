@@ -41,6 +41,12 @@ public class MainController {
     /// Abrir tela Login
     public void abrirLogin() { carregarTela("Login.fxml"); }
 
+    /// Abrir tela NovaVenda
+    public void abrirNovaVenda() { carregarTela("NovaVenda.fxml"); }
+
+    /// Abrir tela Relatorios
+    public void abrirRelatorios() { carregarTela("Relatorios.fxml"); }
+
     /// Abrir tela Ajuda
     public void abrirAjuda(ActionEvent event){
         Alert alert = new Alert(AlertType.INFORMATION);
