@@ -9,16 +9,15 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ecommercefx.controller.RelatorioController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ecommercefx.controller.RelatorioController">
     <children>
-        <Label layoutX="213.0" layoutY="71.0" text="Relatórios" textFill="#2bc8d3" AnchorPane.bottomAnchor="510.0" AnchorPane.leftAnchor="335.0" AnchorPane.rightAnchor="350.0" AnchorPane.topAnchor="40.0">
+        <Label layoutX="290.0" layoutY="43.0" prefHeight="50.0" prefWidth="208.0" text="Relatórios" textFill="#2bc8d3" AnchorPane.bottomAnchor="507.0" AnchorPane.leftAnchor="290.0" AnchorPane.rightAnchor="302.0" AnchorPane.topAnchor="43.0">
             <font>
                 <Font name="Arial Black" size="36.0" />
             </font>
         </Label>
-        <Line endX="471.0" layoutX="429.0" layoutY="94.0" startX="-429.0" />
-        <TableView layoutX="44.0" layoutY="121.0" prefHeight="416.0" prefWidth="823.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="120.0">
+        <Line endX="369.99993896484375" layoutX="430.0" layoutY="101.0" startX="-429.0" />
+        <TableView layoutX="44.0" layoutY="121.0" prefHeight="380.0" prefWidth="706.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="120.0">
             <columns>
                 <TableColumn prefWidth="75.0" text="Data" />
                 <TableColumn prefWidth="75.0" text="Cliente" />
@@ -28,11 +27,11 @@
                 <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
             </columnResizePolicy>
         </TableView>
-        <DatePicker layoutX="40.0" layoutY="542.0" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="685.0" AnchorPane.topAnchor="540.0" />
+        <DatePicker layoutX="40.0" layoutY="542.0" prefHeight="25.0" prefWidth="94.0" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="666.0" AnchorPane.topAnchor="540.0" />
         <Label layoutX="40.0" layoutY="525.0" text="Data inicial*" />
-        <DatePicker layoutX="234.0" layoutY="542.0" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="485.0" AnchorPane.topAnchor="540.0" />
-        <Label layoutX="234.0" layoutY="525.0" text="Data final*" />
-        <Button layoutX="450.0" layoutY="543.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="70.0" text="Buscar" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="450.0" AnchorPane.rightAnchor="350.0" AnchorPane.topAnchor="540.0">
+        <DatePicker layoutX="194.0" layoutY="540.0" prefHeight="25.0" prefWidth="94.0" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="194.0" AnchorPane.rightAnchor="512.0" AnchorPane.topAnchor="540.0" />
+        <Label layoutX="194.0" layoutY="525.0" text="Data final*" />
+        <Button layoutX="329.0" layoutY="540.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" text="Buscar" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="329.0" AnchorPane.rightAnchor="415.0" AnchorPane.topAnchor="540.0">
             <font>
                 <Font name="Arial" size="12.0" />
             </font>

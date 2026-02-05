@@ -4,49 +4,32 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: linear-gradient(to right, white 0%, #25d9e4 100%);" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Label layoutX="36.0" layoutY="83.0" text="Completude" textFill="#2bc8d3">
+      <Label layoutX="32.0" layoutY="40.0" text="Completude" textFill="#2bc8d3">
          <font>
             <Font name="Bell MT" size="36.0" />
          </font>
       </Label>
-      <Label layoutX="36.0" layoutY="136.0" text="E-commerce Completo" textFill="#2bc8d3">
+      <Label layoutX="38.0" layoutY="83.0" text="E-commerce Completo" textFill="#2bc8d3">
          <font>
             <Font name="Bell MT" size="36.0" />
          </font>
       </Label>
-      <ImageView fitHeight="170.0" fitWidth="178.0" layoutX="36.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="170.0" fitWidth="178.0" layoutX="86.0" layoutY="157.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../imagens/caixa%20logo.png" />
          </image>
       </ImageView>
-      <Label layoutX="496.0" layoutY="25.0" text="Gerenciamento do Sistema" textFill="#167c80">
+      <Line endX="5.0" endY="547.0" layoutX="389.0" layoutY="53.0" startX="5.0" startY="-53.0" />
+      <Label layoutX="485.0" layoutY="47.0" text="Sistema administrativo ">
          <font>
             <Font name="Bell MT" size="24.0" />
          </font>
       </Label>
-      <ImageView fitHeight="81.0" fitWidth="170.0" layoutX="555.0" layoutY="77.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../imagens/Icone%20de%20pessoa.jpg" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="149.0" fitWidth="135.0" layoutX="555.0" layoutY="457.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../imagens/icone%20venda.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="141.0" fitWidth="145.0" layoutX="557.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../imagens/icone%20produto.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="118.0" fitWidth="117.0" layoutX="569.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../imagens/icone%20de%20relatorio.png" />
-         </image>
-      </ImageView>
+      <Line endX="305.0" layoutX="495.0" layoutY="126.0" startX="-100.0" />
    </children>
 </AnchorPane>
