@@ -3,7 +3,7 @@ package com.example.ecommercefx.dao;
 /// ProdutoDAO
 /// ==========================================================
 
-import com.example.ecommercefx.controller.model.Produto;
+import com.example.ecommercefx.model.Produto;
 
 import java.sql.*;
 

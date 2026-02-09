@@ -1,4 +1,4 @@
-package com.example.ecommercefx.controller.model;
+package com.example.ecommercefx.model;
 /// ==========================================================
 /// Produto
 /// ==========================================================
