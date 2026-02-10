@@ -6,7 +6,7 @@ package com.example.ecommercefx.model;
 public class Produto {
     // Atributos privados
     private int id; // Chave primária
-    private String codigo;
+    private String sku;
     private String nome;
     private double preco;
     private int quantidade;
@@ -15,7 +15,7 @@ public class Produto {
      * Construtor para INSERÇÃO (CREATE), onde o ID ainda não existe.
      */
     public Produto(String codigo, String nome, double preco, int quantidade) {
-        this.codigo = codigo;
+        this.sku = codigo;
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
@@ -26,7 +26,7 @@ public class Produto {
      */
     public Produto(int id, String codigo, String nome, double preco, int quantidade) {
         this.id = id;
-        this.codigo = codigo;
+        this.sku = codigo;
         this.nome = nome;
         this.preco = preco;
         this.quantidade = quantidade;
@@ -37,8 +37,8 @@ public class Produto {
         return id;
     }
 
-    public String getCodigo(){
-        return codigo;
+    public String getSku(){
+        return sku;
     }
 
     public String getNome(){
@@ -58,8 +58,8 @@ public class Produto {
         this.id = id;
     }
 
-    public void setCodigo(String codigo){
-        this.codigo = codigo;
+    public void setSku(String sku){
+        this.sku = sku;
     }
 
     public void setNome(String nome){

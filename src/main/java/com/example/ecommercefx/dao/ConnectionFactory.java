@@ -4,6 +4,7 @@ package com.example.ecommercefx.dao;
 /// =================================================================
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 /**
  * Classe de Utilidade para Gerenciamento de Conexão.
@@ -14,17 +15,16 @@ public class ConnectionFactory {
     private static final String URL = "jdbc:mysql://localhost:3306/ecommerce_java"; // Endereço, porta e nome do banco.
     private static final String USER = "root"; // Usuário do banco.
     private static final String PASSWORD = ""; // Senha do banco.
-
     /**
      * Tenta estabelecer a conexão com o banco de dados.
      *
      * @return Objeto Connection do JDBC.
      */
-    private static Connection getConnection() {
+    public static Connection getConnection() {
         try{
             // Tenta estabelecer conexão com o database usando as credenciais definidas.
             return DriverManager.getConnection(URL, USER, PASSWORD);
-        }catch(Exception e) {
+        }catch(SQLException e) {
             // Em caso de falha na conexão, lança uma exceção em tempo de execução.
             throw new RuntimeException("Erro ao conectar: " + e.getMessage());
         }
