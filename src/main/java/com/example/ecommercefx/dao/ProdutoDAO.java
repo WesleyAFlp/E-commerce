@@ -61,7 +61,7 @@ public class ProdutoDAO {
             while (rs.next()) {
                 // Mapeamento reverso: Converte a linha do BD em um objeto Produto.
                 Produto p = new Produto (
-                        rs.getInt("id"), // Pega o valor da coluna 'id'
+                        rs.getInt("idProduto"), // Pega o valor da coluna 'id'
                         rs.getString("sku"), // Pega o valor da coluna 'sku'
                         rs.getString("nome"), // Pega o valor da coluna 'nome'
                         rs.getDouble("preco"), // Pega o valor da coluna 'preco'
@@ -73,7 +73,6 @@ public class ProdutoDAO {
         }catch (Exception e) {
             System.out.println("Erro ao listar: " + e.getMessage());
         }
-
         return lista;
     }
 
