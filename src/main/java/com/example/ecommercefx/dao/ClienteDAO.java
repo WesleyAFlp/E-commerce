@@ -70,7 +70,7 @@ public class ClienteDAO {
             while(rs.next()) {
                 // Mapeamento reverso: Converte a linha do BD em um objeto Produto.
                 Cliente c = new Cliente (
-                    rs.getInt("idCliente"), // pega o valor da coluna id
+                    rs.getInt("id"), // pega o valor da coluna id
                     rs.getString("nome"), // pega o valor da coluna nome
                     rs.getString("email"), // pega o valor da coluna email
                     rs.getString("cpf"), // pega o valor da coluna cpf

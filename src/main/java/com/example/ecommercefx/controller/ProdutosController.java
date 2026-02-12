@@ -67,6 +67,7 @@ public class ProdutosController {
             exibirAlerta("Erro: ", e.getMessage());
         }
     }
+
     public void selecionarItem() {
         produtoSelecionado = prTabela.getSelectionModel().getSelectedItem();
         if (produtoSelecionado != null) {
@@ -86,6 +87,16 @@ public class ProdutosController {
         prTabela.getSelectionModel().clearSelection();
     }
 
+
+    public void excluirProduto() {
+        if (produtoSelecionado != null) {
+            try {
+                dao.deletar(produtoSelecionado.getId());
+                atualizarTabela();
+                limparCampos();
+            } catch (Exception e) { exibirAlerta("Erro", e.getMessage()); }
+        }
+    }
 
     private void exibirAlerta(String titulo, String msg) {
         Alert alert = new Alert(Alert.AlertType.ERROR);

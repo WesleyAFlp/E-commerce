@@ -14,7 +14,7 @@
             <Font name="Bell MT" size="36.0" />
          </font>
       </Label>
-      <Label layoutX="38.0" layoutY="83.0" text="E-commerce Completo" textFill="#2bc8d3">
+      <Label layoutX="32.0" layoutY="83.0" text="E-commerce Completo" textFill="#2bc8d3">
          <font>
             <Font name="Bell MT" size="36.0" />
          </font>

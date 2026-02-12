@@ -82,7 +82,7 @@ public class ProdutoDAO {
 
     public void atualizar(Produto produto){
         // A cláusula WHERE id = ? é essencial para garantir a atualização do registro correto.
-        String sql = "UPDATE produto SET sku = ?, nome = ?, preco = ?, quantidade = ? WHERE id = ?";
+        String sql = "UPDATE produtos SET sku = ?, nome = ?, preco = ?, quantidade = ? WHERE id = ?";
 
         try (Connection conn = ConnectionFactory.getConnection();
             PreparedStatement stmt = conn.prepareStatement(sql)) {
@@ -109,7 +109,7 @@ public class ProdutoDAO {
      * DELETE: Remove um registro do BD com base no ID.
      */
     public void deletar(int id) {
-        String sql = "DELETE produto WHERE id = ?";
+        String sql = "DELETE FROM produtos WHERE id = ?";
 
         try (Connection conn = ConnectionFactory.getConnection();
             PreparedStatement stmt = conn.prepareStatement(sql)) {
